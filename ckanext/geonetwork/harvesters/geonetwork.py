@@ -13,8 +13,8 @@ from ckan.plugins.core import SingletonPlugin
 from ckanext.spatial.lib.csw_client import CswService
 from ckanext.spatial.harvesters.csw import CSWHarvester
 
-from ckanext.spatial.model import ISODocument
-from ckanext.spatial.model import ISOElement
+from ckanext.spatial.harvested_metadata import ISODocument
+from ckanext.spatial.harvested_metadata import ISOElement
 
 from ckan.logic import ValidationError, NotFound, get_action
 
